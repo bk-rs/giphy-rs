@@ -1,5 +1,5 @@
 /*
-RUST_BACKTRACE=1 RUST_LOG=trace cargo run -p giphy-api-lite-demo --bin stickers_search 'YOUR_API_KEY' 'dogs'
+RUST_BACKTRACE=1 RUST_LOG=trace cargo run -p giphy-api-lite-demo --bin stickers_search -- 'YOUR_API_KEY' 'dogs'
 */
 
 use std::{env, error};
