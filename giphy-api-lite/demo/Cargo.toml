@@ -1,0 +1,16 @@
+[package]
+name = "giphy-api-lite-demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "stickers_search"
+path = "src/stickers_search.rs"
+
+[dependencies]
+giphy-api-lite = { path = ".." }
+
+http-api-isahc-client = { version = "0.2" }
+
+futures-lite = { version = "1.11" }
+pretty_env_logger = { version = "0.4" }

@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "giphy-api-lite",
+    "giphy-api-lite/demo",
+]
