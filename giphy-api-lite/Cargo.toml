@@ -1,7 +1,16 @@
 [package]
 name = "giphy-api-lite"
 version = "0.1.0"
+authors = ["vkill <vkill.net@gmail.com>"]
 edition = "2021"
+description = "GIPHY API"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/bk-rs/giphy-rs"
+homepage = "https://github.com/bk-rs/giphy-rs"
+documentation = "https://docs.rs/giphy-api-lite"
+keywords = []
+categories = []
+readme = "README.md"
 
 [dependencies]
 http-api-client-endpoint = { version = "0.2" }
