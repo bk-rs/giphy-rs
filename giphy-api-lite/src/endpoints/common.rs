@@ -1,5 +1,3 @@
-use std::fmt;
-
 use http_api_client_endpoint::{
     http::{Error as HttpError, StatusCode},
     Body,
@@ -12,7 +10,7 @@ use crate::objects::ResponseBodyErrJson;
 #[derive(Debug, Clone)]
 pub enum EndpointRet<T>
 where
-    T: fmt::Debug + Clone,
+    T: core::fmt::Debug + Clone,
 {
     Ok(T),
     RateLimitIsReached,
