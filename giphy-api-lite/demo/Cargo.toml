@@ -12,5 +12,5 @@ giphy-api-lite = { path = ".." }
 
 http-api-isahc-client = { version = "0.2" }
 
-futures-lite = { version = "1.11" }
+futures-lite = { version = "1" }
 pretty_env_logger = { version = "0.4" }
